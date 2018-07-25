@@ -12,5 +12,5 @@ $ npm i @savo/ignore -g
 $ ignore
 ```
 
-## Lisence
+## License
 MIT
