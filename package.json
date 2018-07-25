@@ -1,0 +1,22 @@
+{
+  "name": "@savo/ignore",
+  "version": "0.1.0",
+  "description": "Create ignore files using command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ignore": "./bin/ignore.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savokiss/ignore.git"
+  },
+  "author": "savokiss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/savokiss/ignore/issues"
+  },
+  "homepage": "https://github.com/savokiss/ignore#readme"
+}
