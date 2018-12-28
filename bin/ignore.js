@@ -8,7 +8,7 @@ const files = {
 }
 
 function addPath (file) {
-  return path.join(__dirname, '..', 'files', file)
+  return path.join(__dirname, '..', 'files', file.slice(1))
 }
 
 function copyFile (file) {
