@@ -9,6 +9,9 @@
   "bin": {
     "ignore": "./bin/ignore.js"
   },
+  "files": [
+    "files/**"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/savokiss/ignore.git"
