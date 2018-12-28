@@ -4,6 +4,7 @@
   "description": "Create ignore files using command line",
   "main": "index.js",
   "scripts": {
+    "release": "np release --no-cleanup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
