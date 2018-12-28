@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+const path = require('path')
 const fs = require('fs')
 
 const files = {
@@ -7,11 +7,15 @@ const files = {
   npm: '.npmignore'
 }
 
-function writeFile (name, content) {
-  fs.writeFile(name, content, 'utf8', err => {
-    if(err) return console.err(err)
+function addPath (file) {
+  return path.join(__dirname, '..', 'files', file)
+}
+
+function copyFile (file) {
+  fs.copyFile(addPath(file), file, err => {
+    if(err) return console.error(err)
     console.log('Create ignore file success')
   })
 }
 
-writeFile(files.git, 'node_modules')
+copyFile(files.git)
