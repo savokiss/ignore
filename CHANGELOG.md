@@ -4,5 +4,5 @@
 # v0.2.0
 - add gitignore content
 
-# v0.3.1
+# v0.3.2
 - refactor to copy file
